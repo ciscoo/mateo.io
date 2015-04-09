@@ -3,3 +3,4 @@ bower_components
 .DS_Store
 .sass-cache
 sublime-gulp.log
+npm-debug.log
