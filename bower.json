@@ -1,0 +1,17 @@
+{
+  "name": "mateo.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ciscoo/mateo.io",
+  "authors": [
+    "Francisco Mateo <cisco@mateo.io>"
+  ],
+  "description": "Source for http://mateo.io",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
