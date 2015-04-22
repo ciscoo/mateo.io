@@ -18,11 +18,9 @@ gulp.task('clean', function () {
     .pipe($.clean());
 });
 
-gulp.task('jekyll:build', $.shell.task('jekyll build'));
-
 gulp.task('sass', function () {
   return gulp.src([
-    'dev/styles/*.scss'
+    'dev/styles/**/*.scss'
   ])
     .pipe($.sourcemaps.init())
     .pipe($.sass({
