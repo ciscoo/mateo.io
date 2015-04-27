@@ -33,3 +33,13 @@ gulp.task('sass', function () {
     .pipe($.sourcemaps.write())
     .pipe(gulp.dest('dev/css/'));
 });
+
+gulp.task('serve', ['sass'], function () {
+  browserSync({
+    server: './dev'
+  });
+
+  gulp.watch('src/styles/**/*.scss', ['sass', reload]);
+});
+
+gulp.task('default', ['serve']);
