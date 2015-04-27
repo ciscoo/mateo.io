@@ -8,19 +8,24 @@ var reload = browserSync.reload;
 gulp.task('browser-sync', function () {
   browserSync({
     server: {
-      baseDir: 'dev/build'
+      baseDir: './build'
     }
   });
 });
 
 gulp.task('clean', function () {
-  return gulp.src('dist/')
+  return gulp.src('./build')
     .pipe($.clean());
+});
+
+gulp.task('copy-index', function () {
+  return gulp.src('./src/index.html')
+    .pipe(gulp.dest('./build'));
 });
 
 gulp.task('sass', function () {
   return gulp.src([
-    'dev/styles/**/*.scss'
+    './src/styles/**/*.scss'
   ])
     .pipe($.sourcemaps.init())
     .pipe($.sass({
@@ -31,15 +36,16 @@ gulp.task('sass', function () {
       cascade: true
     }))
     .pipe($.sourcemaps.write())
-    .pipe(gulp.dest('dev/css/'));
+    .pipe(gulp.dest('./build'));
 });
 
-gulp.task('serve', ['sass'], function () {
+gulp.task('serve', ['sass', 'copy-index'], function () {
   browserSync({
-    server: './dev'
+    server: './build'
   });
 
-  gulp.watch('src/styles/**/*.scss', ['sass', reload]);
+  gulp.watch('./src/styles/**/*.scss', ['sass', reload]);
+  gulp.watch('./src/**/*.html', ['copy-index', reload]);
 });
 
 gulp.task('default', ['serve']);
