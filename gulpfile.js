@@ -29,6 +29,7 @@ gulp.task('sass', function () {
   ])
     .pipe($.sourcemaps.init())
     .pipe($.sass({
+      includePaths: ['./bower_components/susy/sass'],
       precision: 10,
       onError: console.error.bind(console, 'Sass Error:')
     }))
@@ -36,7 +37,7 @@ gulp.task('sass', function () {
       cascade: true
     }))
     .pipe($.sourcemaps.write())
-    .pipe(gulp.dest('./build'));
+    .pipe(gulp.dest('./build/styles'));
 });
 
 gulp.task('serve', ['sass', 'copy-index'], function () {
