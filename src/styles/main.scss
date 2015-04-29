@@ -1,1 +1,19 @@
-@import "utils/functions";
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,700,400);
+@import "susy";
+
+body {
+  background: #eeeeee;
+  color: 333333;
+  font-family: 'Roboto', sans-serif;
+
+  @include container(50em);
+
+  h1 {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin-top: 5em;
+  }
+}
+
