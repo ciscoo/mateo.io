@@ -31,7 +31,8 @@ gulp.task('sass', function () {
     .pipe($.sass({
       includePaths: ['./bower_components/susy/sass'],
       precision: 10,
-      onError: console.error.bind(console, 'Sass Error:')
+      //onError: console.error.bind(console, 'Sass Error:')
+      errLogToConsole: true
     }))
     .pipe($.autoprefixer(['last 2 versions, > 5%'], {
       cascade: true
