@@ -23,6 +23,11 @@ gulp.task('copy-index', function () {
     .pipe(gulp.dest('./build'));
 });
 
+gulp.task('copy-images', function () {
+  return gulp.src('./src/img/**')
+    .pipe(gulp.dest('./build/img'));
+});
+
 gulp.task('sass', function () {
   return gulp.src([
     './src/styles/**/*.scss'
@@ -40,7 +45,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./build/styles'));
 });
 
-gulp.task('serve', ['sass', 'copy-index'], function () {
+gulp.task('serve', ['sass', 'copy-index', 'copy-images'], function () {
   browserSync({
     server: './build'
   });
