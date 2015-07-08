@@ -1,1 +1,42 @@
-@import "utils/functions";
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700);
+@import "utils/palette";
+@import "breakpoints";
+@import "susy";
+
+html {
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+body {
+  background: #212121;
+  color: #ffffff;
+  @include container(60em);
+}
+
+
+header {
+  text-align: center;
+  margin-top: 20%;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 2.5em;
+  @media (max-device-width : 373px) {
+      font-size: 1.8em;
+  }
+}
+
+h2 {
+  font-weight: 400;
+}
+
+span {
+  color: #00BCD4;
+  font-weight: 300;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+}
