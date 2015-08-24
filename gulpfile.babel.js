@@ -1,11 +1,13 @@
 'use strict';
 
-var gulp = require('gulp');
-var $ = require('gulp-load-plugins')();
-var browserSync = require('browser-sync');
-var reload = browserSync.reload;
+import gulp from 'gulp';
+import browserSync from 'browser-sync';
+import gulpLoadPlugins from 'gulp-load-plugins';
 
-gulp.task('browser-sync', function () {
+const $ = gulpLoadPlugins();
+const reload = browserSync.reload;
+
+gulp.task('browser-sync', () => {
   browserSync({
     server: {
       baseDir: './build'
@@ -13,22 +15,22 @@ gulp.task('browser-sync', function () {
   });
 });
 
-gulp.task('clean', function () {
+gulp.task('clean', () => {
   return gulp.src('./build')
     .pipe($.clean());
 });
 
-gulp.task('copy-index', function () {
+gulp.task('copy-index', () => {
   return gulp.src('./src/index.html')
     .pipe(gulp.dest('./build'));
 });
 
-gulp.task('copy-images', function () {
+gulp.task('copy-images', () => {
   return gulp.src('./src/img/**')
     .pipe(gulp.dest('./build/img'));
 });
 
-gulp.task('sass', function () {
+gulp.task('sass', () => {
   return gulp.src([
     './src/styles/**/*.scss'
   ])
@@ -46,7 +48,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./build/styles'));
 });
 
-gulp.task('serve', ['sass', 'copy-index', 'copy-images'], function () {
+gulp.task('serve', ['sass', 'copy-index', 'copy-images'], () => {
   browserSync({
     server: './build'
   });
