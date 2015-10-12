@@ -16,6 +16,6 @@
     "tests"
   ],
   "devDependencies": {
-    "susy": "~2.2.3"
+    "susy": "~2.2.6"
   }
 }
