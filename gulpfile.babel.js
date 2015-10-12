@@ -41,7 +41,8 @@ gulp.task('sass', () => {
       //onError: console.error.bind(console, 'Sass Error:')
       errLogToConsole: true
     }))
-    .pipe($.autoprefixer(['last 2 versions, > 5%'], {
+    .pipe($.autoprefixer({
+      browsers: ['> 5%','last 2 versions'],
       cascade: true
     }))
     .pipe($.sourcemaps.write())
