@@ -5,10 +5,12 @@
 
 html {
   font-family: 'Roboto', Helvetica, sans-serif;
+  background: url('../img/cover.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
 }
 
 body {
-  background: #212121;
   color: #ffffff;
   @include container(60em);
 }
@@ -16,27 +18,58 @@ body {
 
 header {
   text-align: center;
-  margin-top: 20%;
+}
+
+section {
+  text-align: center;
+  margin-top: 28%;
+  line-height: 2em;
 }
 
 h1 {
   font-weight: 100;
   font-size: 2.5em;
+  letter-spacing: 0.1em;
   @media (max-device-width : 373px) {
-      font-size: 1.8em;
+      font-size: 1.5em;
   }
 }
 
 h2 {
-  font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.3em;
+  letter-spacing: 1em;
+  
+  @media (max-device-width : 373px) {
+      letter-spacing: 0;
+  }
 }
 
-span {
-  color: #00BCD4;
-  font-weight: 300;
+footer {
+  text-align: center;
+  bottom: 0;
+  ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+  }
 }
-
 .logo {
-  height: 200px;
-  width: 200px;
+  height: 50px;
+  width: 50px;
+  margin-top: 2em;
+}
+
+.github-icon {
+  background: url('../img/github.svg') no-repeat center center;
+  display: block;
+  height: 30px;
+  width: 30px;
+  margin-top: 15em;
+
+  @media (max-device-width : 373px) {
+    margin-top: 5em;
+  }
 }

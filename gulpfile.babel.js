@@ -15,9 +15,10 @@ gulp.task('browser-sync', () => {
   });
 });
 
-gulp.task('clean', () => {
-  return gulp.src('./build')
-    .pipe($.clean());
+gulp.task('zip', () => {
+  return gulp.src('./build/**/*')
+    .pipe($.zip('archive.zip'))
+    .pipe(gulp.dest('.'));
 });
 
 gulp.task('copy-index', () => {
@@ -36,7 +37,7 @@ gulp.task('sass', () => {
   ])
     .pipe($.sourcemaps.init())
     .pipe($.sass({
-      includePaths: ['./bower_components/susy/sass'],
+      includePaths: ['./bower_components/susy/sass', './bower_components/normalize-css'],
       precision: 10,
       //onError: console.error.bind(console, 'Sass Error:')
       errLogToConsole: true
@@ -57,5 +58,7 @@ gulp.task('serve', ['sass', 'copy-index', 'copy-images'], () => {
   gulp.watch('./src/styles/**/*.scss', ['sass', reload]);
   gulp.watch('./src/**/*.html', ['copy-index', reload]);
 });
+
+gulp.task('build', ['sass'])
 
 gulp.task('default', ['serve']);
