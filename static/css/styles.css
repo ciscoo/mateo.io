@@ -1,0 +1,179 @@
+body, html {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 300;
+  transition: 0.2s ease-in;
+}
+
+a:hover {
+  color: #e91e63;
+  cursor: pointer;
+}
+
+::selection {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.verticle-center {
+  height: 100%;
+}
+
+.name {
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.name h1 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 485px) {
+  .name h1 {
+    text-align: center;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.home-links {
+  text-align: center;
+  margin: 15px 0 30px 0;
+}
+
+.home-links li {
+  display: inline;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-right: 10px;
+}
+
+.tag-line h2 {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #777;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px #ccc solid;
+  width: 650px;
+  padding: 30px 20px;
+}
+
+.blog-entry {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-date {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #777;
+  text-align: left;
+  font-weight: 300;
+}
+
+.blog-title {
+  color: #444;
+  font-size: 18px;
+  width: 400px;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+.blog-title a {
+  font-weight: 400;
+}
+
+.archive {
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.common-header {
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.projects {
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 0 10px 10px 0;
+  height: 300px;
+  width: 300px;
+  background-color: #000;
+}
+
+.project-image-container {
+  position: relative;
+  word-wrap: break-word;  
+  
+}
+
+.project-title-container {
+  background-color: transparent;
+  color: transparent;
+  height: 300px;
+  width: 300px;
+  color: transparent;
+  position: absolute;
+  left: 0;
+  top: -283px;
+  transition: 0.3s ease;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+}
+
+.project-title-container:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.project-title {
+  width: 100px;
+  height: 100px;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: row;
+  width: 650px;
+}

@@ -1,0 +1,11 @@
+{{ partial "header" . }}
+<div class="container verticle-center">
+  <header class="name">
+    <h1>{{ .Site.Params.author }}</h1>
+  </header>
+  <section class="tag-line">
+    <h2>{{ .Site.Params.tagLine }}</h2> 
+  </section>
+  {{ partial "links" .}}
+</div>
+{{ partial "footer" . }}

@@ -1,0 +1,26 @@
+{{ partial "header" . }}
+<div class="container">
+  <header class="name common-header">
+    <a href="{{ .Site.BaseURL }}">Francisco Mateo</a>
+  </header>
+  <section class="home-links">
+    <ul>
+      <li><a href="{{ "portfolio" | relURL }}">Portfolio</a></li>
+      <li><a href="https://github.com/ciscoo">Github</a></li>
+      <li><a href="{{ "resume.pdf" | relURL }}">Resume</a></li>
+    </ul>
+  </section>
+  <main class="projects">
+    {{ range .Data.Pages }}
+    <section class="project">
+      <a href="{{ .Permalink }}" class="project-image-container">
+        <img src="{{ "img/" | relURL }}{{ .Params.CoverImage }}" alt="">
+        <div class="project-title-container">
+          <span class="project-title">{{ .Title }}</span>
+        </div>
+      </a>
+    </section>
+    {{ end }}
+  </main>
+</div>
+{{ partial "footer" . }}
