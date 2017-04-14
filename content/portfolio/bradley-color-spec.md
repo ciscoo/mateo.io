@@ -15,7 +15,7 @@ The Color Spec app was my first web project for the [App Factory](http://appfact
 
 ## Background
 
-Bradley approached the App Factory with the idea of creating an Android and iOS application for showcasing various bathroom tiling that Bradley offers. Their sales representive would carry around a paper/book catalog of the tiles availble for sale. The issue is that they did not have a simple way to instantly update the catalog on the fly.
+Bradley approached the App Factory with the idea of creating an Android and iOS application for showcasing various bathroom tiling that Bradley offers. Their sales representative would carry around a paper/book catalog of the tiles available for sale. The issue is that they did not have a simple way to instantly update the catalog on the fly.
 
 ## Implementation
 
