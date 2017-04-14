@@ -8,8 +8,7 @@ Categories = ["Development", "Grails"]
 CoverImage = "ss_home.png"
 +++
 
-<video src="/media/ss_video.webm" autoplay loop height="400px">Sorry, your browser doesn't support embedded videos.</video>
-[Full Screen](/media/ss_video.webm)
+<video src="/media/ss_video.webm" autoplay controls loop height="400px">Sorry, your browser doesn't support embedded videos.</video>
 
 ## Introduction
 
