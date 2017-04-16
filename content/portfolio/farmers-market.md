@@ -12,7 +12,7 @@ CoverImage = "fm_cover.png"
 
 ## Introduction
 
-The Farmers Market Event Management (FMEM) is my current big project for the [App Factory](appfactoryuwp.com). The client for this project is the [Racine Kenosha Community Action Agency](http://www.rkcaa.org/) (RKCAA). FHEM is a cross platform iOS/Android app that allows users to access information about events going on in local farmers market. The app also allows the users to view the hours of operation for each farmers market. The apps pull their information from [Firebase's Real Time Database](https://firebase.google.com/docs/database/) and the web admin app allows authorized users to create farmers market, events, and more.
+The Farmers Market Event Management (FMEM) is my current big project for the [App Factory](http://appfactoryuwp.com/). The client for this project is the [Racine Kenosha Community Action Agency](http://www.rkcaa.org/) (RKCAA). FHEM is a cross platform iOS/Android app that allows users to access information about events going on in local farmers market. The app also allows the users to view the hours of operation for each farmers market. The apps pull their information from [Firebase's Real Time Database](https://firebase.google.com/docs/database/) and the web admin app allows authorized users to create farmers market, events, and more.
 
 ## Background
 
