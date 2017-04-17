@@ -11,7 +11,7 @@ CoverImage = "bcs_cover.png"
 
 ## Introduction
 
-The Color Spec app was my first web project for the [App Factory](http://appfactoryuwp.com/). It was for a new client from Menomonee Falls, WI. named [Bradley](Bradley). Bradley is the industry's leading manufacturer of commercial plumbing fixtures and washroom accessories.
+The Color Spec app was my first web project for the [App Factory](http://appfactoryuwp.com/). It was for a new client from Menomonee Falls, WI. named [Bradley](https://www.bradleycorp.com/). Bradley is the industry's leading manufacturer of commercial plumbing fixtures and washroom accessories.
 
 ## Background
 
