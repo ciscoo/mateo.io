@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /img
 Disallow: /css
-Disallow: /resume.pdf
+Disallow: /20170722_resume.pdf
