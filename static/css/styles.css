@@ -184,3 +184,26 @@ li {
     width: 350px;
   }
 }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #dfe2e5;
+}
+
+th {
+    border: 2px solid #dfe2e5;
+    
+}
+
+td {
+    border: 1px solid #dfe2e5;
+}
+
+img {
+  max-width: 100%;
+}
+
+pre {
+  overflow: auto !important;
+}
