@@ -2,7 +2,7 @@
 Title = "Kenosha Parks"
 Description = "A Google Calendar REST API wrapper with Express."
 Tags = ["node", "javascript", "express", "rest", "api"]
-Date = "2017-07-01"
+Date = "2017-06-20"
 ProjectDate = "2017-06-20"
 Categories = ["Development", "Node.js", "Express"]
 CoverImage = "kp_cover.png"
