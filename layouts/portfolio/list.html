@@ -1,8 +1,11 @@
 {{ partial "header" . }}
 <div class="container">
   <header class="name common-header">
-    <a href="{{ .Site.BaseURL }}">Francisco Mateo</a>
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Params.author }}</a>
   </header>
+  <section class="tag-line">
+    <h2>{{ .Site.Params.tagLine }}</h2> 
+  </section>
   <section class="home-links">
     <ul>
       <li><a href="{{ "portfolio" | relURL }}">Portfolio</a></li>
