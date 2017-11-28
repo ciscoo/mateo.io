@@ -1,14 +1,31 @@
-## mateo.io
+## [mateo.io](https://mateo.io)
 
-The source of my personal/portfolio website. It is built with [Hugo](https://gohugo.io/), a fast static site generator written in [Go](https://golang.org/).
+The source of my personal/portfolio website.
+
+## Development Setup
+
+Ensure you have at minimum:
+
+* Node.js 8.9.x
+
+Next simply install the development package:
+
+```bash
+$ npm install
+```
+
+To start a live development server:
+
+```bash
+$ npm run start
+```
+
+To build the project for production/deployment:
+
+```bash
+$ npm run build
+```
 
 ## Deployment
 
-The site is hosted on [Firebase](https://firebase.google.com/docs/hosting/). Ensure you have the [Firebase CLI](https://www.npmjs.com/package/firebase-tools) installed and run the following:
-
-```bash
-$ hugo
-$ firebase deploy
-```
-
-That's it! :smile:
+WIP. To be automated with [Travis CI](https://travis-ci.org/).
