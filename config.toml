@@ -1,8 +1,10 @@
 baseURL = "https://mateo.io/"
 languageCode = "en-us"
 title = "Francisco Mateo"
+disableKinds = ["RSS", "sitemap"]
+publishDir = "dist"
 
 [params]
-    description = "Blog and portfolio of Francisco Mateo."
-    author = "Francisco Mateo"
-    tagLine = "Full-stack Developer & Things in Between"
+description = "Blog and portfolio of Francisco Mateo."
+author = "Francisco Mateo"
+tagLine = "Full-stack Developer & Things in Between"
