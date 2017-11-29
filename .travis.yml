@@ -5,8 +5,5 @@ sudo: false
 cache:
   directories:
     - node_modules
-before_install:
-  - "test ! -d node_modules || npm prune"
-  - "test ! -d node_modules || npm rebuild"
 script:
   - "npm run test"
