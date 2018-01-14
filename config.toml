@@ -5,6 +5,8 @@ disableKinds = ["RSS", "sitemap"]
 publishDir = "dist"
 
 [params]
-description = "Blog and portfolio of Francisco Mateo."
 author = "Francisco Mateo"
 tagLine = "Full-stack Developer & Things in Between"
+githubLink = "https://github.com/ciscoo"
+stackOverflowLink = "https://stackoverflow.com/users/2382650/francisco-mateo"
+resumeName = "20170722_resume.pdf"

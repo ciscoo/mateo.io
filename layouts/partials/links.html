@@ -1,7 +1,7 @@
 <section class="home-links">
   <ul>
-    <li><a href="https://github.com/ciscoo">Github</a></li>
-    <li><a href="https://stackoverflow.com/users/2382650/francisco-mateo">Stack Overflow</a></li>
-    <li><a href="{{ "20170722_resume.pdf" | relURL }}">Resume</a></li>
+    <li><a href="{{ .Site.Params.githubLink}}">Github</a></li>
+    <li><a href="{{ .Site.Params.stackOverflowLink}}">Stack Overflow</a></li>
+    <li><a href="{{ .Site.Params.resumeName | relURL }}">Resume</a></li>
   </ul>
 </section>
