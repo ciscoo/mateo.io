@@ -1,7 +1,7 @@
 {
   "name": "mateo-io",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Source of https://mateo.io",
   "scripts": {
     "start": "run-p serve css:watch",
