@@ -1,14 +1,17 @@
 ## [mateo.io](https://mateo.io)
 
+[![Build Status](https://travis-ci.org/ciscoo/mateo.io.svg?branch=master)](https://travis-ci.org/ciscoo/mateo.io)
+
 The source of my personal/portfolio website.
 
 ## Development Setup
 
-Ensure you have at minimum:
+Ensure you have:
 
 * Node.js 8.9.x
+* [Hugo](https://gohugo.io/)
 
-Next simply install the development package:
+Next simply install the development packages:
 
 ```bash
 $ npm install
@@ -20,12 +23,6 @@ To start a live development server:
 $ npm run start
 ```
 
-To build the project for production/deployment:
-
-```bash
-$ npm run build
-```
-
 ## Deployment
 
-WIP. To be automated with [Travis CI](https://travis-ci.org/).
+Deployment is handled by [Travis CI](https://travis-ci.org/). Create tag/release to deploy.
