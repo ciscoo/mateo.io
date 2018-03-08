@@ -1,16 +1,16 @@
 {
   "name": "mateo-io",
   "private": true,
-  "version": "0.1.1",
+  "version": "1.1.0",
   "description": "Source of https://mateo.io",
   "scripts": {
     "start": "run-p serve css:watch",
     "serve": "hugo serve",
-    "build": "hugo && npm run css:build",
+    "build": "hugo && yarn css:build",
     "css:build": "postcss ./css/main.css -u autoprefixer postcss-import cssnano -m -d ./dist/css",
     "css:watch": "postcss ./css/main.css -u autoprefixer postcss-import -m -d ./static/css -w",
     "clean": "rimraf ./dist",
-    "test": "npm run build && npm run clean"
+    "test": "yarn build && yarn clean"
   },
   "repository": {
     "type": "git",
