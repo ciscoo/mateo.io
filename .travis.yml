@@ -5,7 +5,7 @@ node_js:
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.7.0
   - export PATH=$HOME/.yarn/bin:$PATH
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.43/hugo_0.43_Linux-64bit.deb
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.45/hugo_0.45_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
 cache: yarn
 before_script: yarn
