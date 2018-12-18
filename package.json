@@ -7,8 +7,8 @@
     "start": "run-p serve css:watch",
     "serve": "hugo serve",
     "build": "hugo && yarn css:build",
-    "css:build": "postcss ./css/main.css -u autoprefixer postcss-import cssnano -m -d ./dist/css",
-    "css:watch": "postcss ./css/main.css -u autoprefixer postcss-import -m -d ./static/css -w",
+    "css:build": "postcss ./css/styles.css -u autoprefixer postcss-import cssnano -m -d ./dist/css",
+    "css:watch": "postcss ./css/styles.css -u autoprefixer postcss-import -m -d ./static/css -w",
     "clean": "rimraf ./dist",
     "test": "yarn build && yarn clean"
   },
