@@ -2,3 +2,4 @@ public
 dist
 node_modules/
 static/css
+.DS_Store
