@@ -2,25 +2,19 @@
 
 [![Build Status](https://travis-ci.org/ciscoo/mateo.io.svg?branch=master)](https://travis-ci.org/ciscoo/mateo.io)
 
-The source of my personal/portfolio website.
+The source of my personal website.
 
 ## Development Setup
 
 Ensure you have:
 
-* Node.js 8.9.x
 * [Hugo](https://gohugo.io/)
 
-Next simply install the development packages:
+Next simply run the development server
+
 
 ```bash
-$ npm install
-```
-
-To start a live development server:
-
-```bash
-$ npm run start
+hugo server
 ```
 
 ## Deployment
