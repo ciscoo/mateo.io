@@ -1,4 +1,3 @@
+# Allow crawling of all content
 User-agent: *
-Disallow: /img
-Disallow: /css
-Disallow: /20170722_resume.pdf
+Disallow:
