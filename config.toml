@@ -3,9 +3,3 @@ languageCode = "en-us"
 title = "Francisco Mateo"
 disableKinds = ["RSS", "sitemap", "taxonomy", "taxonomyTerm"]
 publishDir = "dist"
-
-[params]
-author = "Francisco Mateo"
-tagLine = "Full-stack Developer & Things in Between"
-githubLink = "https://github.com/ciscoo"
-stackOverflowLink = "https://stackoverflow.com/users/2382650/francisco-mateo"
