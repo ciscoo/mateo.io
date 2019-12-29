@@ -1,16 +1,10 @@
-sudo: false
-language: node_js
-node_js:
-  - lts/*
+dist: bionic
+sudo: required
 before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.12.3
-  - export PATH=$HOME/.yarn/bin:$PATH
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Linux-64bit.deb
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.62.0/hugo_0.62.0_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
-cache: yarn
-before_script: yarn
-script: yarn test
-before_deploy: yarn build
+script: hugo
+before_deploy: hugo
 deploy:
   skip_cleanup: true
   provider: firebase
