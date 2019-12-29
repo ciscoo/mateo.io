@@ -1,4 +1,5 @@
 {{ $styles := resources.Get "styles.css" | minify | fingerprint }}
+{{ $resume := resources.Get "resume.pdf" | fingerprint }}
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
 <head>
@@ -19,7 +20,7 @@
     <p>
       I'm a software developer specialized in backend development for cloud-native applications.
       Most of work is closed source, but you can find my open source work on <a href="{{ .Site.Params.githubLink }}">GitHub</a>
-      and my resume <a href="{{ .Site.Params.resumeName | relURL }}">here</a>.
+      and my resume <a href="{{ $resume.RelPermalink }}">here</a>.
     </p>
     <p>
       You can also find me actively answering questions on <a href="{{ .Site.Params.stackOverflowLink }}">Stack Overflow</a>.
