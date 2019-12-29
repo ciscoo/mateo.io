@@ -8,25 +8,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" class="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Montserrat:700" rel="stylesheet">
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
   {{ .Hugo.Generator }}
 </head>
 <body>
-  <div class="container verticle-center">
-    <header class="name">
-      <h1>{{ .Site.Params.author }}</h1>
-    </header>
-    <section class="tag-line">
-      <h2>{{ .Site.Params.tagLine }}</h2>
-    </section>
-    <section class="home-links">
-      <ul>
-        <li><a href="{{ .Site.Params.githubLink}}">Github</a></li>
-        <li><a href="{{ .Site.Params.stackOverflowLink}}">Stack Overflow</a></li>
-        <li><a href="{{ .Site.Params.resumeName | relURL }}">Resume</a></li>
-      </ul>
-    </section>
+  <div class="container">
+    <h1>Hello.</h1>
+    <p class="me-llamo">My name is Francisco Mateo.</p>
+    <p>
+      I'm a software developer specialized in backend development for cloud-native applications.
+      Most of work is closed source, but you can find my open source work on <a href="{{ .Site.Params.githubLink }}">GitHub</a>
+      and my resume <a href="{{ .Site.Params.resumeName | relURL }}">here</a>.
+    </p>
+    <p>
+      You can also find me actively answering questions on <a href="{{ .Site.Params.stackOverflowLink }}">Stack Overflow</a>.
+    </p>
+    <p>
+      Outside of programming, I enjoy playing Rocket League, traveling, running, and walks with my dogs and girlfriend.
+    </p>
   </div>
   <script>
   window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
