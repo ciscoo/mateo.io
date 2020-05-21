@@ -1,0 +1,31 @@
+name: Deploy
+
+on:
+  push:
+    tags:
+      - v2.*
+
+jobs:
+  deploy:
+    name: Firebase Deploy
+    runs-on: ubuntu-latest
+    defaults:
+      shell: bash
+    steps:
+    - name: Install Hugo
+      run: |
+        wget https://github.com/gohugoio/hugo/releases/download/v0.71.0/hugo_0.71.0_Linux-64bit.deb
+        sudo dpkg -i hugo*.deb
+        hugo version
+    - name: Install Firebase CLI
+      run: |
+        curl -sL https://firebase.tools | bash
+        firebase --version
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Build
+      run: hugo
+    - name: Firebase Deploy
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      run: firebase deploy
