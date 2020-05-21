@@ -10,7 +10,8 @@ jobs:
     name: Firebase Deploy
     runs-on: ubuntu-latest
     defaults:
-      shell: bash
+      run:
+        shell: bash
     steps:
     - name: Install Hugo
       run: |
