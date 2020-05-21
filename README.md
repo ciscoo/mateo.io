@@ -1,6 +1,6 @@
 ## [mateo.io](https://mateo.io)
 
-[![Build Status](https://travis-ci.org/ciscoo/mateo.io.svg?branch=master)](https://travis-ci.org/ciscoo/mateo.io)
+![Deploy](https://github.com/ciscoo/mateo.io/workflows/Deploy/badge.svg)
 
 The source of my personal website.
 
@@ -19,4 +19,11 @@ hugo server
 
 ## Deployment
 
-Deployment is handled by [Travis CI](https://travis-ci.org/). Create tag/release to deploy.
+Deployment is handled by the [deploy](https://github.com/ciscoo/mateo.io/actions?query=workflow%3ADeploy) workflow
+
+Create tag to deploy:
+
+```bash
+git tag vx.x.x
+git tag push origin vx.x.x
+```
