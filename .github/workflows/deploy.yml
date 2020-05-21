@@ -13,15 +13,19 @@ jobs:
       run:
         shell: bash
     steps:
+    - name: Install Node.js
+      uses: actions/setup-node@v2-beta
+      with:
+        node-version: 12
+    - name: Install Firebase CLI
+      run: |
+        npm install -g firebase-tools
+        firebase --version
     - name: Install Hugo
       run: |
         wget https://github.com/gohugoio/hugo/releases/download/v0.71.0/hugo_0.71.0_Linux-64bit.deb
         sudo dpkg -i hugo*.deb
         hugo version
-    - name: Install Firebase CLI
-      run: |
-        curl -sL https://firebase.tools | bash
-        firebase --version
     - name: Checkout
       uses: actions/checkout@v2
     - name: Build
