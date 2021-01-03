@@ -21,6 +21,9 @@ hugo server
 
 Deployment is handled by the [deploy](https://github.com/ciscoo/mateo.io/actions?query=workflow%3ADeploy) workflow
 
+> The Firebase token used for deployment expires after one month from the time it was generated. Ensure a new token
+> is created prior to deployment.
+
 Create tag to deploy:
 
 ```bash
