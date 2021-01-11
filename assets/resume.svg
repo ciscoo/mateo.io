@@ -9,7 +9,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="resume.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    id="svg8"
    version="1.1"
    viewBox="0 0 215.9 279.4"
@@ -24,9 +24,9 @@
      inkscape:guide-bbox="true"
      showguides="false"
      inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:window-height="1017"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1013"
      inkscape:window-width="1920"
      inkscape:snap-grids="true"
      inkscape:pagecheckerboard="false"
@@ -34,9 +34,9 @@
      showgrid="false"
      inkscape:current-layer="layer4"
      inkscape:document-units="in"
-     inkscape:cy="415.18177"
-     inkscape:cx="371.01234"
-     inkscape:zoom="0.98994949"
+     inkscape:cy="270.39428"
+     inkscape:cx="463.73951"
+     inkscape:zoom="1.979899"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -110,7 +110,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -130,8 +130,7 @@
            height="57.142857"
            width="131.42857"
            id="rect79" /></flowRegion><flowPara
-         id="flowPara81">Francsic</flowPara></flowRoot>
-    <flowRoot
+         id="flowPara81">Francsic</flowPara></flowRoot>    <flowRoot
        transform="scale(0.26458333)"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot91"
@@ -142,8 +141,7 @@
            height="43.57143"
            width="286.42856"
            id="rect95" /></flowRegion><flowPara
-         id="flowPara97">Frasdfasdfasdfa</flowPara></flowRoot>
-    <text
+         id="flowPara97">Frasdfasdfasdfa</flowPara></flowRoot>    <text
        id="text101"
        y="25.617289"
        x="19.654762"
@@ -253,8 +251,7 @@
            height="86.428574"
            width="195"
            id="rect901" /></flowRegion><flowPara
-         id="flowPara903" /></flowRoot>
-    <flowRoot
+         id="flowPara903" /></flowRoot>    <flowRoot
        transform="matrix(0.26458333,0,0,0.26458333,-0.13363477,-1.737252)"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot921"
@@ -265,35 +262,34 @@
            height="204.41101"
            width="441.70068"
            id="rect925" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"
          id="flowPara927"><flowSpan
    id="flowSpan941"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Languages:</flowSpan> Java, Kotlin, JavaScript, Go, PHP, Python</flowPara><flowPara
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Languages:</flowSpan> Java, Kotlin, JavaScript, Go, PHP, Python</flowPara><flowPara
          id="flowPara929"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
    id="flowSpan943"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Frameworks:</flowSpan> Spring/Spring Boot, Grails, Laravel, Express</flowPara><flowPara
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Frameworks:</flowSpan> Spring/Spring Boot, Grails, Express</flowPara><flowPara
          id="flowPara931"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
    id="flowSpan945"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Continious Integration:</flowSpan> Jenkins, Github Actions, Travis CI</flowPara><flowPara
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Continious Integration:</flowSpan> Jenkins, Github Actions, Travis CI</flowPara><flowPara
          id="flowPara933"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
    id="flowSpan947"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Agile Tools:</flowSpan> Rally, JIRA,</flowPara><flowPara
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Agile Tools:</flowSpan> Rally, JIRA,</flowPara><flowPara
          id="flowPara935"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
    id="flowSpan949"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Agile Methodology:</flowSpan> Extreme Programming (XP), Scrum</flowPara><flowPara
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Agile Methodology:</flowSpan> Extreme Programming (XP), Scrum</flowPara><flowPara
          id="flowPara937"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
    id="flowSpan951"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Cloud Platforms:</flowSpan> PCF, AWS</flowPara><flowPara
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">Cloud Platforms:</flowSpan> PCF, AWS</flowPara><flowPara
          id="flowPara939"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1"><flowSpan
    id="flowSpan953"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.65;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">PaaS/SaaS:</flowSpan> Heroku, Firebase, Github</flowPara></flowRoot>
-    <flowRoot
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.64999998;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0px;word-spacing:1px;fill:#222222;fill-opacity:1">PaaS/SaaS:</flowSpan> Heroku, Firebase, Github</flowPara></flowRoot>    <flowRoot
        transform="matrix(0.26458333,0,0,0.26458333,-0.18088178,7.6995161)"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot955"
@@ -319,8 +315,7 @@
    id="flowSpan1112"
    style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light'"> <flowSpan
    id="flowSpan1258"
-   style="fill:#222222;fill-opacity:1">Aug 2017 - present</flowSpan></flowSpan></flowPara></flowRoot>
-    <flowRoot
+   style="fill:#222222;fill-opacity:1">Aug 2017 - present</flowSpan></flowSpan></flowPara></flowRoot>    <flowRoot
        transform="matrix(0.26458333,0,0,0.26458333,-0.07967226,-17.380626)"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot997"
@@ -333,18 +328,17 @@
            width="468.69379"
            id="rect1001" /></flowRegion><flowPara
          id="flowPara1015"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Teachnical lead developer for designing and implementating core backend services that reached 60+ million customers utilizing microservices architecture.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Teachnical lead developer for designing and implementating core backend services for a fortune 500 financial company that reached 60+ million customers.</flowPara><flowPara
          id="flowPara1011"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Automated various aspects of the software development life cycle (SDLC) through CI/CD processes utilizing Jenkins.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Automated various aspects of the software development life cycle (SDLC) through CI/CD processes utilizing Jenkins.</flowPara><flowPara
          id="flowPara2635"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Utilized XP model to deliver beyond client's expectations and reduce defects in production.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Utilized XP model to deliver beyond client's expectations and reduce defects in production.</flowPara><flowPara
          id="flowPara2637"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Reduced operating costs by $4 million.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Reduced operating costs by $4 million.</flowPara><flowPara
          id="flowPara2639"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1" /><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1" /><flowPara
          id="flowPara2633"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1" /></flowRoot>
-    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1" /></flowRoot>    <flowRoot
        transform="matrix(0.26458333,0,0,0.26458333,-0.13765148,47.725028)"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot955-9"
@@ -370,8 +364,7 @@
    id="flowSpan1103"
    style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light'"> <flowSpan
    id="flowSpan1290"
-   style="fill:#222222;fill-opacity:1">Oct 2015 - Aug 2017</flowSpan></flowSpan></flowPara></flowRoot>
-    <flowRoot
+   style="fill:#222222;fill-opacity:1">Oct 2015 - Aug 2017</flowSpan></flowSpan></flowPara></flowRoot>    <flowRoot
        transform="matrix(0.26458333,0,0,0.26458333,-0.03470914,23.385627)"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot997-8"
@@ -383,13 +376,12 @@
            width="476.5509"
            id="rect1001-7" /></flowRegion><flowPara
          id="flowPara1015-1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Designed and developed REST APIs for mobile apps.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Designed and developed REST APIs for mobile apps.</flowPara><flowPara
          id="flowPara1011-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Aid other team members in all Web related tasks or projects.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Aid other team members in all Web related tasks or projects.</flowPara><flowPara
          id="flowPara1019-3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Agile/Scrum driven development environment.</flowPara></flowRoot>
-    <flowRoot
-       transform="matrix(0.26458333,0,0,0.26458333,-1.3229166,16.668755)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;line-height:0.5;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">• Agile/Scrum driven development environment.</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,-1.3229166,39.372901)"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot1186"
        xml:space="preserve"><flowRegion
@@ -403,9 +395,8 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';fill:#222222;fill-opacity:1"
          id="flowPara1192">Gradle Java Template</flowPara><flowPara
          id="flowPara2560"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';fill:#222222;fill-opacity:1" /></flowRoot>
-    <a
-       transform="translate(0,5.2916669)"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';fill:#222222;fill-opacity:1" /></flowRoot>    <a
+       transform="translate(0,27.995813)"
        target=""
        xlink:href="https://github.com/ciscoo/gradle-java-template"
        id="a1305">
@@ -417,15 +408,14 @@
            id="flowRegion1196"><rect
              style="stroke-width:1"
              id="rect1198"
-             width="211.78572"
-             height="19.285715"
+             width="218.92857"
+             height="19.285706"
              x="235"
              y="676" /></flowRegion><flowPara
            id="flowPara1200"
-           style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto Light Italic';fill:#222222;fill-opacity:1">https://github.com/ciscoo/gradle-java-template</flowPara></flowRoot>
-    </a>
+           style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.66670036px;font-family:Roboto;-inkscape-font-specification:'Roboto Light Italic';fill:#222222;fill-opacity:1">https://github.com/ciscoo/gradle-java-template</flowPara></flowRoot>    </a>
     <flowRoot
-       transform="matrix(0.26458333,0,0,0.26458333,-2.6206008,22.395483)"
+       transform="matrix(0.26458333,0,0,0.26458333,-2.6206008,45.099629)"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot1194-6"
        xml:space="preserve"><flowRegion
@@ -435,63 +425,12 @@
            height="60.474052"
            width="455.86292"
            id="rect1198-7" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1"
-         id="flowPara1200-3">Template Gradle project for building Java libraries or applications. Conventions are based on the build conventions from Spring Boot, Spring Framework, and JUnit 5.</flowPara></flowRoot>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot1186-6"
-       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-1.5544511,71.84951)"><flowRegion
-         id="flowRegion1188-9"><rect
-           id="rect1190-9"
-           width="300"
-           height="20.000008"
-           x="230"
-           y="656" /></flowRegion><flowPara
-         id="flowPara1192-3"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';fill:#222222;fill-opacity:1">mateo.io</flowPara></flowRoot>
-    <a
-       transform="translate(-0.23153409,60.47243)"
-       style="display:inline"
-       id="a1305-3"
-       xlink:href="https://github.com/ciscoo/asbr">
-      <a
-         xlink:href="https://github.com/ciscoo/mateo.io"
-         id="a2627">
-        <flowRoot
-           xml:space="preserve"
-           id="flowRoot1194-9"
-           style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           transform="matrix(0.26458333,0,0,0.26458333,-2.7395127,10.524671)"><flowRegion
-             id="flowRegion1196-4"><rect
-               id="rect1198-4"
-               width="195"
-               height="20.00001"
-               x="235"
-               y="676"
-               style="stroke-width:1" /></flowRegion><flowPara
-             id="flowPara1200-8"
-             style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto Light Italic';fill:#222222;fill-opacity:1">https://github.com/ciscoo/mateo.io</flowPara></flowRoot>
-      </a>
-    </a>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot1194-6-0"
-       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-2.8521341,77.57624)"><flowRegion
-         id="flowRegion1196-1-0"><rect
-           id="rect1198-7-0"
-           width="455.86292"
-           height="60.474052"
-           x="235"
-           y="676" /></flowRegion><flowPara
-         id="flowPara1200-3-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">Source of my personal website built with Hugo; hosted with Firebase Hosting.</flowPara></flowRoot>
-    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1"
+         id="flowPara1200-3">Template Gradle project for building Java libraries or applications. Conventions are based on the build conventions from Spring Boot, Spring Framework, and JUnit 5.</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot1186-62"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-1.5172475,44.120312)"><flowRegion
+       transform="matrix(0.26458333,0,0,0.26458333,-1.5172475,66.685171)"><flowRegion
          id="flowRegion1188-0"><rect
            id="rect1190-95"
            width="300"
@@ -502,12 +441,11 @@
          id="flowPara1192-7"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';fill:#222222;fill-opacity:1">Twilio Spring Boot</flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';fill:#222222;fill-opacity:1"
-         id="flowPara2560-5" /></flowRoot>
-    <a
-       transform="translate(-0.19433054,32.743222)"
+         id="flowPara2560-5" /></flowRoot>    <a
+       transform="translate(-0.19433054,55.308081)"
        style="display:inline"
        id="a1305-6"
-       xlink:href="https://github.com/ciscoo/asbr">
+       xlink:href="https://github.com/ciscoo/twilio-spring-boot">
       <a
          xlink:href="https://github.com/ciscoo/twilio-spring-boot"
          id="a2621">
@@ -524,14 +462,13 @@
                x="235"
                y="676" /></flowRegion><flowPara
              id="flowPara1200-2"
-             style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.6667px;font-family:Roboto;-inkscape-font-specification:'Roboto Light Italic';fill:#222222;fill-opacity:1">https://github.com/ciscoo/twilio-spring-boot</flowPara></flowRoot>
-      </a>
+             style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.66670036px;font-family:Roboto;-inkscape-font-specification:'Roboto Light Italic';fill:#222222;fill-opacity:1">https://github.com/ciscoo/twilio-spring-boot</flowPara></flowRoot>      </a>
     </a>
     <flowRoot
        xml:space="preserve"
        id="flowRoot1194-6-3"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-2.8149306,49.847031)"><flowRegion
+       transform="matrix(0.26458333,0,0,0.26458333,-2.8149306,72.41189)"><flowRegion
          id="flowRegion1196-1-5"><rect
            style="stroke-width:1"
            id="rect1198-7-6"
@@ -540,8 +477,52 @@
            x="235"
            y="676" /></flowRegion><flowPara
          id="flowPara1200-3-0"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">Spring Boot library for initializing the Twilio Java SDK using Spring Boot configuration idioms.</flowPara></flowRoot>
-  </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">Spring Boot library for initializing the Twilio Java SDK using Spring Boot configuration idioms.</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,-1.4130458,16.721337)"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1186-1"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1188-5"><rect
+           style="stroke-width:1"
+           y="656"
+           x="230"
+           height="20"
+           width="103.57143"
+           id="rect1190-97" /></flowRegion><flowPara
+         id="flowPara2560-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';fill:#222222;fill-opacity:1">CXF Codegen</flowPara></flowRoot>    <a
+       style="display:inline"
+       transform="translate(-0.0901298,32.538922)"
+       target=""
+       xlink:href="https://github.com/ciscoo/cxf-codegen-gradle"
+       id="a1305-36">
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot1194-5"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         transform="matrix(0.26458333,0,0,0.26458333,-2.7395127,-16.670004)"><flowRegion
+           id="flowRegion1196-6"><rect
+             style="stroke-width:1"
+             id="rect1198-3"
+             width="218.92857"
+             height="19.285706"
+             x="235"
+             y="676" /></flowRegion><flowPara
+           id="flowPara1200-9"
+           style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.66670036px;font-family:Roboto;-inkscape-font-specification:'Roboto Light Italic';fill:#222222;fill-opacity:1">https://github.com/ciscoo/cxf-codegen-gradle</flowPara></flowRoot>    </a>
+    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,-2.7107298,22.448057)"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1194-6-4"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1196-1-8"><rect
+           y="676"
+           x="235"
+           height="20.47406"
+           width="318.72006"
+           id="rect1198-7-1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1"
+         id="flowPara402">Gradle plugin to generate Java sources from WSDL documents.</flowPara></flowRoot>  </g>
   <g
      inkscape:label="Footer"
      id="layer5"
@@ -556,6 +537,5 @@
            height="32.142857"
            width="175.71428"
            id="rect5067" /></flowRegion><flowPara
-         id="flowPara5069" /></flowRoot>
-  </g>
+         id="flowPara5069" /></flowRoot>  </g>
 </svg>
