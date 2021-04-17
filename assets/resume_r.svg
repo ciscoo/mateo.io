@@ -32,11 +32,11 @@
      inkscape:pagecheckerboard="false"
      units="in"
      showgrid="false"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer4"
      inkscape:document-units="in"
-     inkscape:cy="291.1747"
-     inkscape:cx="512.55362"
-     inkscape:zoom="0.9899495"
+     inkscape:cy="61.547722"
+     inkscape:cx="407.37304"
+     inkscape:zoom="1.979899"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -110,7 +110,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -223,6 +223,17 @@
          x="17.848991"
          id="tspan838-7"
          sodipodi:role="line">OPEN SOURCE</tspan></text>
+    <text
+       id="text840-3-3"
+       y="259.86533"
+       x="23.330841"
+       style="font-style:normal;font-weight:normal;font-size:10.58329964px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778029px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';word-spacing:0.79374999px;fill:#00aaee;fill-opacity:1;stroke-width:0.26458299"
+         y="259.86533"
+         x="23.330841"
+         id="tspan838-7-6"
+         sodipodi:role="line">EDUCATION</tspan></text>
   </g>
   <g
      style="display:inline"
@@ -433,15 +444,17 @@
        transform="matrix(0.26458333,0,0,0.26458333,-1.5172475,83.408681)"><flowRegion
          id="flowRegion1188-0"><rect
            id="rect1190-95"
-           width="300"
-           height="20.000008"
+           width="531.42859"
+           height="20"
            x="230"
            y="656"
            style="stroke-width:1" /></flowRegion><flowPara
-         id="flowPara1192-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';fill:#222222;fill-opacity:1">Twilio Spring Boot</flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';fill:#222222;fill-opacity:1"
-         id="flowPara2560-5" /></flowRoot>    <a
+         id="flowPara2560-5">University of Wisconsin Parkside <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light'"
+   id="flowSpan396"><flowSpan
+   style="fill:#00aaee;fill-opacity:1"
+   id="flowSpan4906">|</flowSpan> May 2017</flowSpan></flowPara></flowRoot>    <a
        transform="translate(-0.19433054,72.031596)"
        style="display:inline"
        id="a1305-6"
@@ -462,13 +475,13 @@
                x="235"
                y="676" /></flowRegion><flowPara
              id="flowPara1200-2"
-             style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.66670036px;font-family:Roboto;-inkscape-font-specification:'Roboto Light Italic';fill:#222222;fill-opacity:1">https://github.com/ciscoo/twilio-spring-boot</flowPara></flowRoot>      </a>
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:10.66670036px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Semi-Bold';fill:#222222;fill-opacity:1">Bachelor of Science in Computer Science</flowPara></flowRoot>      </a>
     </a>
     <flowRoot
        xml:space="preserve"
        id="flowRoot1194-6-3"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-2.8149306,89.135425)"><flowRegion
+       transform="matrix(0.26458333,0,0,0.26458333,-2.8149306,87.018757)"><flowRegion
          id="flowRegion1196-1-5"><rect
            style="stroke-width:1"
            id="rect1198-7-6"
@@ -477,7 +490,9 @@
            x="235"
            y="676" /></flowRegion><flowPara
          id="flowPara1200-3-0"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66670036px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#222222;fill-opacity:1">Spring Boot library for initializing the Twilio Java SDK using Spring Boot configuration idioms.</flowPara></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.66670036px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';fill:#222222;fill-opacity:1">Web Development Minor</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.66670036px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Light';fill:#222222;fill-opacity:1"
+         id="flowPara4912">Unix System Administration Certificate</flowPara></flowRoot>    <flowRoot
        transform="matrix(0.26458333,0,0,0.26458333,-1.4130458,33.444852)"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot1186-1"
