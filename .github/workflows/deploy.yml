@@ -28,7 +28,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Build
-      run: hugo
+      run: hugo --minify
     - name: Firebase Deploy
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
