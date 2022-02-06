@@ -1,4 +1,4 @@
-baseURL = "https://ciscoo.github.io/mateo.io"
+baseURL = "https://mateo.io/"
 languageCode = "en-us"
 title = "Francisco Mateo"
 disableKinds = ["RSS", "sitemap", "taxonomy", "taxonomyTerm"]
