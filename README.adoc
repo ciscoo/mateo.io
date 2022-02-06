@@ -1,0 +1,34 @@
+== https://mateo.io[mateo.io]
+
+image::https://github.com/ciscoo/mateo.io/workflows/Deploy/badge.svg[]
+
+The source of my personal website.
+
+=== Development Setup
+
+Ensure you have:
+
+- https://gohugo.io/[Hugo]
+
+Next simply run the development server
+
+
+[source,bash]
+----
+hugo server
+----
+
+=== Deployment
+
+Deployment is handled by the https://github.com/ciscoo/mateo.io/actions?query=workflow%3ADeploy[deploy] workflow.
+
+TIP: The Firebase token used for deployment expires after one month from the time it was generated. Ensure a new token
+is created prior to deployment.
+
+Create tag to deploy:
+
+[source,bash]
+----
+git tag vx.x.x
+git push origin vx.x.x
+----
