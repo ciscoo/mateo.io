@@ -13,7 +13,7 @@ jobs:
         shell: bash
     steps:
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: latest
     - name: Checkout
@@ -21,7 +21,7 @@ jobs:
     - name: Build
       run: hugo --minify
     - name: GitHub Pages Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
