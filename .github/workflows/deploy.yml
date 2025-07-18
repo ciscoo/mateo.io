@@ -8,9 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
     steps:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
