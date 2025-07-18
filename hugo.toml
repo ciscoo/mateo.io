@@ -1,4 +1,8 @@
 baseURL = "https://mateo.io/"
 languageCode = "en-us"
 title = "Francisco Mateo"
-disableKinds = ["RSS", "sitemap", "taxonomy", "taxonomyTerm"]
+disableKinds = ["RSS", "sitemap", "taxonomy"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
