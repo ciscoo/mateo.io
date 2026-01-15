@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.148.0
+      HUGO_VERSION: 0.154.5
       HUGO_ENVIRONMENT: production
       TZ: America/Chicago
     steps:
