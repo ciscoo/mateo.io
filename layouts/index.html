@@ -14,8 +14,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
   {{ hugo.Generator }}
+  <script>
+    const stored = localStorage.getItem('theme');
+    if (stored) {
+      document.documentElement.setAttribute('data-theme', stored);
+    }
+  </script>
 </head>
 <body>
+  <button class="theme-toggle" aria-label="Toggle theme">
+    <span aria-hidden="true">◐</span>
+  </button>
+
   <div class="container">
     <h1>Francisco Mateo</h1>
     <p>
@@ -31,5 +41,21 @@
       Outside of programming, I enjoy playing <a href="https://rocketleague.tracker.network/rocket-league/profile/steam/76561198100323669/overview">Rocket League</a>, traveling, running, and walks with my wife and our dogs.
     </p>
   </div>
+
+  <script>
+    const toggle = document.querySelector('.theme-toggle');
+    const root = document.documentElement;
+
+    function getTheme() {
+      return root.getAttribute('data-theme')
+        ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+
+    toggle.addEventListener('click', () => {
+      const next = getTheme() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  </script>
 </body>
 </html>
